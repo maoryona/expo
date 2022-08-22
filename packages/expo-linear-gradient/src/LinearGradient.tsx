@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Platform, processColor, ViewProps } from 'react-native';
+import { Platform, processColor } from 'react-native';
+import { ViewProps } from 'deprecated-react-native-prop-types';
 
 import NativeLinearGradient from './NativeLinearGradient';
 import { NativeLinearGradientPoint } from './NativeLinearGradient.types';
